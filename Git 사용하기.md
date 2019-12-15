@@ -1,4 +1,4 @@
-# GitHub 사용법
+# Git 사용법
 
 ## 1.  Git이란?
 
@@ -150,6 +150,10 @@ $ git config --global user.email "githib_email"
 ```bash
 # 설정한 내용을 확인할 수 있다.
 $ git config --list 
+
+$ git config --global -l
+user.email = # my email
+user.name = # my name
 ```
 
  ### 5.2 git init
@@ -162,7 +166,7 @@ $ git config --list
 
  ### 5.4 git add 
 
-이 명령이 원격저장소에 새 파일들을 추가하진 않는다. 대신 깃이 새 파일들을 지켜보게 한다. 파일을 추가하면 깃의 원격저장소 스냅샷에 포함된다. 
+깃에서 commit할 대상 파일을 `staging area`로 이동시키는 명령어이다.
 
  ### 5.5 git commit
 
@@ -178,7 +182,7 @@ $ git config --list
 
 ### 5.8 git remote
 
-로컬저장소와 원격저장소를 연결한다.
+로컬저장소와 원격저장소(github)를 연결한다.
 
 ### 5.9 git help
 
