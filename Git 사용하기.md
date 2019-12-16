@@ -295,6 +295,14 @@ Initialized empty Git repository in C:/Users/김영선/Desktop/Git/.git/
 
 **로컬저장소 현재 상태를 체크**한다. 어떤 파일이 원격저장소 안에 있는지, 커밋이 필요한 변경사항이 있는지, 현재 원격저장소의 어떤 브랜치에서 작업하고 있는지 등을 볼 수 있다.
 
+```bash
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+```
+
  ### 5.4 git add 
 
 깃에서 commit할 대상 파일을 `staging area`로 이동시키는 명령어이다.
